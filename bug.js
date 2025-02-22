@@ -1,0 +1,1 @@
+This error occurs when using the `FlatList` component in React Native and trying to access the `item` prop inside the `renderItem` function before the component has mounted completely. This often results in `TypeError: undefined is not an object (evaluating 'item.property')` errors.
